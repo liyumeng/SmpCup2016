@@ -1,8 +1,14 @@
-# SmpCup2016
-2nd Place Solution for SMP CUP 2016
+# 2nd Place Solution for SMP CUP 2016
 
 竞赛链接：https://biendata.com/competition/1/
-队伍成员：[Yumeng Li](https://github.com/liyumeng), [Peng Fei](), [Hengchao Li](https://github.com/hengchao0248)
+队伍成员：[Yumeng Li](https://github.com/liyumeng), [Peng Fei](), [Hengchao Li]()
+
+任务介绍：
+
+> 参赛队伍利用给定的新浪微博数据（包括用户个人信息、用户微博文本以及用户粉丝列表，详见数据描述部分），进行微博用户画像，具体包括以下三个任务：
+任务1：推断用户的年龄（共3个标签：-1979/1980-1989/1990+）
+任务2：推断用户的性别（共2个标签：男/女）
+任务3：推断用户的地域（共8个标签：东北/华北/华中/华东/西北/西南/华南/境外）
 
 ## 1. 文件配置
 程序依赖python3及以下程序包
@@ -14,14 +20,30 @@ xgboost
 gensim
 jieba
 ```
-程序运行需要下载word2vec的模型文件，已上传百度云，共1.3GB。
-下载链接：http://pan.baidu.com/s/1c1Nf0QW 密码：bdi5
+程序运行需要下载原始语料及训练好的word2vec的模型文件，已上传百度云，共1.3GB。
 
-其他文件说明如下：
+原始语料下载链接：http://pan.baidu.com/s/1o8lV37s 密码：wyk8
+
+word2vec模型文件下载链接：http://pan.baidu.com/s/1ciWjpk 密码：cvlo
+
+文件说明如下：
+
+原始数据放于下面目录中
+```
+data/raw_data
+    train
+    valid
+```
+
+word2vec词向量文件放在下面目录中
 ```
 data/word2vec/
     smp.w2v.300d     gensim使用的word2vec模型文件
     smp.w2v.300d.syn0.npy    gensim使用的word2vec模型文件
+```
+
+其余目录文件的作用
+```
 data/user_data/
     short_prov.dict  省份简称
     location.txt     省份与地域的对应表
@@ -32,15 +54,6 @@ data/user_data/
     city_prov.dict   城市与省份的对应表
     city_loca.dict   城市与地域的对应表
     stopwords.txt    停用词表
-```
-原始数据放于下面目录中
-```
-data/raw_data
-    train
-    valid
-```
-其余目录作用
-```
 data/feature_data/ 用于存放程序运行过程中输出的各类临时文件
 data/models/  用于存放程序运行中产生的模型权重参数
 ```
@@ -87,4 +100,8 @@ data/models/
 ## 4. 其他
 如果觉得不错的话，欢迎大家点击右上角star，谢谢！
 
-![](https://github.com/hengchao0248/ccf2016_sougou/raw/master/data/%E9%98%9F%E6%97%97.jpg)
+我们参加的其他竞赛：
+
+[2016CCF 大数据精准营销中搜狗用户画像挖掘 final winner solution](https://github.com/hengchao0248/ccf2016_sougou)
+
+![](others/banner.jpg)
