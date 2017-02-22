@@ -102,6 +102,10 @@ data/models/
 
 我们参加的其他竞赛：
 
-[2016CCF 大数据精准营销中搜狗用户画像挖掘 final winner solution](https://github.com/hengchao0248/ccf2016_sougou)
+[final winner solution for 2016CCF大数据精准营销中搜狗用户画像挖掘](https://github.com/hengchao0248/ccf2016_sougou)
+
+[1st Place Solution for 2016CCF大数据竞赛客户画像赛题(用户画像)](https://github.com/feidapeng/2016CCF_StateGrid_UserProfile)
+
+[Tsinghua Data Science Winter School 2017 Link Prediction](https://github.com/liyumeng/LinkPrediction)
 
 ![](others/banner.jpg)
