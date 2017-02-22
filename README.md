@@ -1,7 +1,7 @@
 # 2nd Place Solution for SMP CUP 2016
 
 竞赛链接：https://biendata.com/competition/1/
-队伍成员：[Yumeng Li](https://github.com/liyumeng), [Peng Fei](), [Hengchao Li]()
+队伍成员：[Yumeng Li](https://github.com/liyumeng), [Peng Fei](https://github.com/feidapeng), [Hengchao Li]()
 
 任务介绍：
 
