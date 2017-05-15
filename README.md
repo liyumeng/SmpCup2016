@@ -103,7 +103,7 @@ data/models/
 
 如果觉得不错的话，*欢迎大家点击右上角star*，谢谢！
 
-[ppt下载](data/SMP 竞赛DUTIRTONE.pptx)
+[ppt下载](data/SMP_DUTIRTONE.pptx)
 
 我们参加的其他竞赛：
 
